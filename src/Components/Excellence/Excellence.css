@@ -1,0 +1,34 @@
+.excellence-wrapper {
+  text-align: center;
+  color: #0d0d0d;
+  padding: 3rem 0;
+  background-color: #F5F5F5;
+}
+.excellence-wrapper > h6 {
+  color: #285c90;
+  font-weight: 600;
+}
+
+.excellence-wrapper > h4 {
+  width: 60%;
+  margin: 3rem auto;
+  font-weight: 600;
+}
+.excellence-numbers {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+}
+.exc-number{
+    text-align: center;
+}
+.exc-number > h1 {
+  font-weight: 700;
+}
+.exc-number > p {
+  font-weight: 600;
+  font-size: 0.75rem;
+}

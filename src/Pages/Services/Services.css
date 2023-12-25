@@ -1,0 +1,117 @@
+.services-page-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #181e4e;
+  color: white;
+  padding: 5rem 1rem;
+  padding-bottom: 0;
+  gap: 3rem;
+}
+.servicesPage-left {
+  width: 50%;
+}
+.servicesPage-left-txt > h1 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+.servicesPage-left-txt > h1 > span {
+  color: #1dc2cc;
+}
+.servicesPage-left-txt > p {
+  width: 80%;
+  margin-top: -1rem;
+  font-size: 1.2rem;
+}
+.servicesPage-right > form {
+  background-color: #fff;
+  padding: 1rem;
+  color: #181e4e;
+}
+.servicesPage-right > form > h2 {
+  font-weight: 700;
+}
+.servicesPage-right > form > h5 {
+  color: rgb(107, 107, 107);
+}
+.form-cont {
+  display: flex;
+  flex-direction: column;
+}
+.form-cont > input {
+  border: none;
+  border-bottom: 1px solid rgb(17, 17, 17);
+  margin: 1rem 0;
+  outline: none;
+  color: gray;
+  width: 25rem;
+      padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.servicePage-second-cont {
+  background-image: url(/public/services-second-cont.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+      background-position: 100%;
+  height: 100%;
+  color: #fff;
+  padding: 3rem;
+  margin: 2rem 0;
+}
+.servicePage-second-cont .txt {
+  width: 50%;
+}
+.servicePage-second-cont .txt > h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.servicePage-second-cont .txt > button {
+  margin-top: 2rem;
+}
+.form-cont > .btn{
+  width: 100%;
+}
+
+@media screen and (max-width: 1145px) {
+  .servicesPage-left,
+  .servicesPage-left-txt {
+    width: 100%;
+  }
+  .servicesPage-left-txt > p {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .services-page-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-cont > input {
+    width: 100%;
+  }
+  .servicePage-second-cont{
+      background-size: cover;
+      background-position: center;
+    padding: 1rem;
+  }
+.servicePage-second-cont .txt {
+  width: 100%;
+}
+.servicePage-second-cont .txt > h1{
+  font-size: 3.3rem;
+}
+}
+@media screen and (max-width:550px) {
+    .servicesPage-left-txt > h1 {
+  font-size: 3rem;
+  overflow: hidden;
+}
+}
+@media screen and (max-width: 500px) {
+  .servicesPage-wrapper {
+    padding: 2rem;
+    gap: 0;
+  }
+}

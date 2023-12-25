@@ -1,0 +1,85 @@
+.top-bar-wrapper {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 3.5rem;
+}
+.left-topBar {
+  width: 180px;
+}
+.left-topBar img {
+  width: 100%;
+  height: auto;
+}
+.right-topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right-topBar > a > button {
+  padding: 1rem 1.75rem;
+  background-color: #285c90;
+  color: #fff;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 0.87rem;
+  transition: 0.1s;
+  margin-left: 1.5rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.right-phone {
+  color: #181e4e;
+  font-size: large;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+.right-phone > span {
+  margin-left: 4px;
+}
+.right-phone > .phone-icon {
+  text-align: center;
+}
+
+/* effects */
+.right-topBar > a > button:hover {
+  border: 1px solid #285c90;
+  color: #285c90;
+  background-color: #fff;
+  font-weight: 700;
+  box-shadow: #285c90 2px 4px 7px 0px;
+}
+
+/* media queries */
+@media screen and (max-width: 990px) {
+  .right-topBar > a > button {
+    font-size: 0.75rem;
+  }
+  .right-phone > span {
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .right-phone {
+    display: none;
+  }
+}
+@media screen and (max-width: 550px) {
+  .right-topBar > a > button {
+    font-size: 0.7rem;
+    margin-right: 1rem;
+  }
+  .left-topBar {
+    min-width: 150px;
+  }
+  .top-bar-wrapper {
+    padding: 1rem 1rem;
+  }
+}

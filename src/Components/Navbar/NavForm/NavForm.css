@@ -1,0 +1,34 @@
+
+.nav-form input {
+  width: 18rem;
+  border: 1px solid #285c90;
+  border-radius: 10px;
+  padding: 5px;
+}
+.inp-group{
+    margin: 0.4rem 0;
+}
+.inp-group > label{
+    margin-bottom: 4px;
+}
+.inp-group > label >span {
+    color: red;
+}
+.nav-form{
+    display: block;
+}
+.nav-form > button {
+  padding: 1rem 1.75rem;
+  background-color: #285c90;
+  color: #fff;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 0.87rem;
+  width: 18rem;
+  transition: 0.1s;
+  font-weight: 500;
+  margin-top: 1rem;
+  cursor: pointer;
+}

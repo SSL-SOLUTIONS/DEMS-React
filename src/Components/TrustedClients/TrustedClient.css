@@ -1,0 +1,25 @@
+.hero-clientLists{
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.hero-clientLists > .heading{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.img-fluid > img{
+  height: auto;
+  width: 150px;
+}
+
+
+@media screen and (max-width: 500px){
+  .hero-clientLists > h5{
+  font-size: 1rem;
+  font-weight: 600;
+}
+ 
+}

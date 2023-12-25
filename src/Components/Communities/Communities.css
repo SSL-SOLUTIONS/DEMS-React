@@ -1,0 +1,61 @@
+.communities-wrapper{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 4rem;
+}
+.comm-links{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.comm-links> a{
+     margin: 0 0.7rem;
+     color: rgb(89, 87, 87);
+     font-size: 1.25rem;
+     flex-wrap: wrap;
+}
+.com-cont-left{
+    max-width: 40%;
+}
+.com-cont-left  > h6, .user > h6{
+    font-weight: 600;
+    color: #285C90;
+}
+.main-cont{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between ;
+    flex-basis: 1 1;
+    flex-wrap: wrap;
+    color: black;
+}
+.com-price{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 2rem 0;
+}
+.price-left h5, .price-right h5{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.price-left p, .price-right p, .user > p, .com-cont-left > p{
+    color: gray;
+    font-size: 0.85rem;
+}
+.right > img{
+    width: 100%;
+}
+@media screen and (max-width: 1060px){
+        .com-cont-left{
+    max-width: 100%;
+}
+.main-cont{
+    align-items: center;
+    justify-content: center;
+}
+}

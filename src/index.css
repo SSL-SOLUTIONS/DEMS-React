@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
+}
+
+
+.btn{
+   padding: 1rem 1.75rem;
+    background-color: #285c90;
+    color: #fff;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.87rem;
+    width: 100%;
+    transition: 0.1s;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.btn:hover{
+  border: 1px solid #181e4e;
+    color:#181e4e;
+    background-color: #fff;
+    font-weight: 700;
+    box-shadow: #181e4e 2px 4px 7px 0px;
+}
