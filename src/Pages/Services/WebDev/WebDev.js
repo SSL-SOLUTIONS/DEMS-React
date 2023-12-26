@@ -1,7 +1,11 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Services from "../Services";
 
 const WebDev = () => {
+  useEffect(() => {
+    document.title =
+      "Best Website Development Services- Hire the #1 Web Developers Team  to create your Buisness visuals";
+  }, []);
   return (
     <>
       <Services

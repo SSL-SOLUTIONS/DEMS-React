@@ -1,0 +1,33 @@
+.functionalCard-cont {
+  background-image: url(/public/services-second-cont.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+      background-position: 100%;
+  height: 100%;
+  color: #fff;
+  padding: 3rem;
+  margin: 2rem 0;
+}
+.functionalCard-cont .txt {
+  width: 58%;
+}
+.functionalCard-cont .txt > h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+.functionalCard-cont .txt > button {
+  margin-top: 2rem;
+}
+@media screen and (max-width: 800px) {
+  .functionalCard-cont{
+      background-size: cover;
+      background-position: center;
+    padding: 1rem;
+  }
+.functionalCard-cont .txt {
+  width: 100%;
+}
+.functionalCard-cont .txt > h1{
+  font-size: 3.3rem;
+}
+}

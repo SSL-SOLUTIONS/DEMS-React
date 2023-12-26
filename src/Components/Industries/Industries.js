@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "./Industries.css";
+import { useNavigate } from "react-router-dom";
 
 const Industries = () => {
+  const navigate = useNavigate();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [cardWidth, setCardWidth] = useState(0);
 
@@ -63,7 +65,10 @@ const Industries = () => {
   ];
 
   return (
-    <div className="accord">
+    <div
+      className="accord"
+      onClick={() => navigate("/luxury-communities/seo-services")}
+    >
       <h1>
         Our Projects And Experience Span Across A Wide Range Of Top Growing
         Industries.

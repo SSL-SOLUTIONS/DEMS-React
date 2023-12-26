@@ -1,7 +1,11 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Services from "../Services";
 
 const MarketAutomation = () => {
+   useEffect(() => {
+     document.title =
+       "Best Market Automatoin Services- Hire the #1 DEM's Team  to Automate your Buisness and Services";
+   }, []);
   return (
     <>
       <Services

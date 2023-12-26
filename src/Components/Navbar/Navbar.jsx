@@ -4,11 +4,9 @@ import "./Navbar.css";
 import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 
-
 const Navbar = () => {
-
   return (
-    <>
+    <div className="navbar-wrapper">
       <TopBar />
       <nav id="menu">
         <label for="tm" id="toggle-menu">
@@ -19,111 +17,89 @@ const Navbar = () => {
         <input type="checkbox" id="tm" />
         <ul className="main-menu clearfix">
           <li>
-            <Link to="/seo-services">
-              SEO
-              <span className="drop-icon">▾</span>
-              <label title="Toggle Drop-down" className="drop-icon" for="sm1">
-                ▾
-              </label>
-            </Link>
+            <Link to="/seo-services">SEO</Link>
             <input type="checkbox" id="sm1" />
             <ul className="sub-menu">
               <li>
-                <a href="#">Free SEO Analysis</a>
+                <Link to="/">Free SEO Analysis</Link>
               </li>
               <li>
-                <a href="#">SEO Services</a>
+                <Link to="/">SEO Services</Link>
               </li>
 
               <li>
-                <a href="#">Content Marketing Services</a>
+                <Link to="/">Content Marketing Services</Link>
               </li>
               <li>
-                <a href="#">Local SEO</a>
+                <Link to="/">Local SEO</Link>
               </li>
               <li>
-                <a href="#">Ecommerce SEO</a>
+                <Link to="/">Ecommerce SEO</Link>
                 <input type="checkbox" id="sm2" />
               </li>
               <li>
-                <a href="#">Link Building Services</a>
+                <Link to="/">Link Building Services</Link>
               </li>
               <li>
-                <a href="#">Specialized SEO Services</a>
+                <Link to="/">Specialized SEO Services</Link>
                 <input type="checkbox" id="sm2" />
               </li>
             </ul>
           </li>
 
           <li>
-            <Link to="/ppc-management-services">
-              PPC
-              <span className="drop-icon">▾</span>
-              <label title="Toggle Drop-down" className="drop-icon" for="sm1">
-                ▾
-              </label>
-            </Link>
+            <Link to="/ppc-management-services">PPC</Link>
             <input type="checkbox" id="sm1" />
             <ul className="sub-menu">
               <li>
-                <a href="#">Free PPC Analysis</a>
+                <Link to="/">Free PPC Analysis</Link>
               </li>
               <li>
-                <a href="#">PPC Management Services</a>
+                <Link to="/">PPC Management Services</Link>
               </li>
               <li>
-                <a href="#">Remarketing</a>
+                <Link to="/">Remarketing</Link>
               </li>
               <li>
-                <a href="#">Mobile PPC</a>
+                <Link to="/">Mobile PPC</Link>
               </li>
               <li>
-                <a href="#">Specialized PPC Services</a>
+                <Link to="/">Specialized PPC Services</Link>
               </li>
             </ul>
           </li>
           <li>
             <Link to="/reputation-management-services">
               REPUTATION MANAGEMENT
-              <span className="drop-icon">▾</span>
-              <label title="Toggle Drop-down" className="drop-icon" for="sm1">
-                ▾
-              </label>
             </Link>
             <input type="checkbox" id="sm1" />
             <ul className="sub-menu">
               <li>
-                <a href="#">Free Reputation Management Analysis</a>
+                <Link to="/">Free Reputation Management Analysis</Link>
               </li>
               <li>
-                <a href="#">Reputation Management Services</a>
+                <Link to="/">Reputation Management Services</Link>
               </li>
               <li>
-                <a href="#">Review Management Services</a>
+                <Link to="/">Review Management Services</Link>
               </li>
               <li>
-                <a href="#">Specialized Reputation Management Services</a>
+                <Link to="/">Specialized Reputation Management Services</Link>
               </li>
             </ul>
           </li>
           <li>
-            <Link to="/social-media-marketing-services">
-              SOCIAL MEDIA
-              <span className="drop-icon">▾</span>
-              <label title="Toggle Drop-down" className="drop-icon" for="sm1">
-                ▾
-              </label>
-            </Link>
+            <Link to="/social-media-marketing-services">SOCIAL MEDIA</Link>
             <input type="checkbox" id="sm1" />
             <ul className="sub-menu">
               <li>
-                <a href="#">Free Social Media Analysis</a>
+                <Link to="/">Free Social Media Analysis</Link>
               </li>
               <li>
-                <a href="#">Social Media Optimization Services</a>
+                <Link to="/">Social Media Optimization Services</Link>
               </li>
               <li>
-                <a href="#">Specialized Social Services</a>
+                <Link to="/">Specialized Social Services</Link>
               </li>
             </ul>
           </li>
@@ -132,80 +108,75 @@ const Navbar = () => {
             <input type="checkbox" id="sm1" />
             <ul className="sub-menu">
               <li>
-                <a href="#">Free Website Analysis</a>
+                <Link to="/">Free Website Analysis</Link>
               </li>
               <li>
-                <a href="#">Web Development Services</a>
+                <Link to="/">Web Development Services</Link>
               </li>
               <li>
-                <a href="#">Mobile Development Services</a>
+                <Link to="/">Mobile Development Services</Link>
               </li>
               <li>
-                <a href="#">Website Maintenance Services</a>
+                <Link to="/">Website Maintenance Services</Link>
               </li>
               <li>
-                <a href="#">Specialized Development Services</a>
+                <Link to="/">Specialized Development Services</Link>
               </li>
             </ul>
           </li>
           <li>
             <Link to="/marketing-automation-services">
               MARKETING AUTOMATION
-              <span className="drop-icon">▾</span>
-              <label title="Toggle Drop-down" className="drop-icon" for="sm1">
-                ▾
-              </label>
             </Link>
             <input type="checkbox" id="sm1" />
             <ul className="sub-menu">
               <li>
-                <a href="#">Free Marketing Automation Analysis</a>
+                <Link to="/">Free Marketing Automation Analysis</Link>
               </li>
               <li>
-                <a href="#">Marketing Automation Services</a>
+                <Link to="/">Marketing Automation Services</Link>
               </li>
               <li>
-                <a href="#">Specialized Marketing Automation Services</a>
+                <Link to="/">Specialized Marketing Automation Services</Link>
               </li>
             </ul>
           </li>
           <li>
-            <Link to="/industries">
-              Industries
-              <span className="drop-icon">▾</span>
-              <label title="Toggle Drop-down" className="drop-icon" for="sm1">
-                ▾
-              </label>
-            </Link>
+            <Link to="/luxury-communities/seo-services/">Industries</Link>
             <input type="checkbox" id="sm1" />
             <ul className="sub-menu">
               <li>
-                <a href="#">Luxury Communities</a>
+                <Link to="/luxury-communities/seo-services/">
+                  Luxury Communities
+                </Link>
               </li>
               <li>
-                <a href="#">Franchise</a>
+                <Link to="/Franchise-industry">Franchise</Link>
                 <input type="checkbox" id="sm2" />
               </li>
               <li>
-                <a href="#">E-Commerce</a>
+                <Link to="/E-commerce-industry">E-Commerce</Link>
               </li>
               <li>
-                <a href="#">Crypto</a>
+                <Link to="/Crypto-industry">Crypto</Link>
               </li>
               <li>
-                <a href="#">Assisted Living</a>
-              </li>
-              <li>
-                <a href="#">Other Industries</a>
+                <Link to="/Assisted-Living-industry">Assisted Living</Link>
               </li>
             </ul>
           </li>
           <li>
             <Link to="/about-us">ABOUT</Link>
+            <input type="checkbox" id="sm1" />
+            <ul className="sub-menu">
+              <li>
+                <Link to="/contact-us">Contact</Link>
+              </li>
+            </ul>
           </li>
         </ul>
       </nav>
-    </>
+    </div>
   );
 };
 

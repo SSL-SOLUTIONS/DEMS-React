@@ -1,7 +1,11 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Services from "../Services";
 
 const Repute = () => {
+  useEffect(() => {
+    document.title =
+      "Best Reputation Managment Services- Hire the #1 Awarded Repute Managment Company to Manage your Buisness";
+  }, []);
   return (
     <>
       <Services

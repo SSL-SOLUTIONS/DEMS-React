@@ -35,6 +35,10 @@
   list-style: none;
   line-height: 1.7rem;
 }
+.list > ul > li:hover,.list-1 ul a:hover{
+  font-weight: 700;
+}
+
 .list > ul a{
   color: white;
 }

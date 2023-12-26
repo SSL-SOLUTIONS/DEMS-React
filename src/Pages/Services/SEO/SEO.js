@@ -1,7 +1,10 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Services from "../Services";
 
 const SEO = () => {
+  useEffect(() => {
+    document.title = "Best SEO Services - Hire the #1 Ranked SEO Company";
+  }, []);
   return (
     <>
       <Services

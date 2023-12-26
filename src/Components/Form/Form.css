@@ -1,0 +1,35 @@
+.all-form {
+  background-color: #fff;
+  padding: 1rem;
+  color: #181e4e;
+}
+.all-form > h2 {
+  font-weight: 700;
+}
+.all-form > h5 {
+  color: rgb(107, 107, 107);
+}
+
+.form-cont {
+  display: flex;
+  flex-direction: column;
+}
+.form-cont > input {
+  border: none;
+  border-bottom: 1px solid rgb(17, 17, 17);
+  margin: 1rem 0;
+  outline: none;
+  color: gray;
+  width: 25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+.form-cont > .btn {
+  width: 100%;
+}
+@media screen and (max-width: 800px) {
+  .form-cont > input {
+    width: 100%;
+  }
+}

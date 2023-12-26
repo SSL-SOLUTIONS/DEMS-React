@@ -12,10 +12,12 @@
 
 .lionCont-left {
   width: 50%;
+  border-left: 3px solid white;
+  padding-left: 1rem;
 }
 
 .lionCont-left-txt > h1 {
-  font-size: 4rem;
+  font-size: 3.3rem;
   margin-bottom: 2rem;
   font-weight: 600;
 }
@@ -27,8 +29,6 @@
 .lionCont-left-txt > p {
   width: 80%;
   margin-top: -1rem;
-  font-weight: 700;
-  font-size: 1.2rem;
 }
 
 @media screen and (max-width: 1145px) {
@@ -42,13 +42,13 @@
   }
 }
 
-@media screen and (max-width: 500px) {  
+@media screen and (max-width: 500px) {
   .lionCont-wrapper {
     padding: 2rem;
     gap: 0;
   }
 
-    .lionCont-left-txt > h1 {
+  .lionCont-left-txt > h1 {
     font-size: 3rem;
     font-weight: 600;
   }

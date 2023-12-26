@@ -7,7 +7,10 @@ import TrustedClient from "../../Components/TrustedClients/TrustedClient";
 import "./Services.css";
 import Card from "../../Components/Services/Card/Card";
 import LionCont from "../../Components/LionCont/LionCont";
+import Form from "../../Components/Form/Form";
+import { useNavigate } from "react-router-dom";
 const Services = (props) => {
+  const navigate = useNavigate();
   const {
     Slogan,
     title,
@@ -45,18 +48,7 @@ const Services = (props) => {
           </div>
         </div>
         <div className="servicesPage-right">
-          <form>
-            <h2>REQUEST A QUOTE</h2>
-            <h5>ITS FAST, EASY & FREE</h5>
-            <div className="form-cont">
-              <input type="text" placeholder="Name" name="Name" />
-              <input type="email" placeholder="Email" name="email" />
-              <input type="tel" placeholder="Phone" />
-              <input type="text" placeholder="Service you want " />
-              <input type="text" placeholder="Budget /month" />
-              <button className="btn">Get Estimate</button>
-            </div>
-          </form>
+          <Form />
         </div>
       </div>{" "}
       <br />
@@ -66,7 +58,9 @@ const Services = (props) => {
           <h1>{secondContSlogan}</h1> <br />
           <h5>{SecondContTitle}</h5> <br />
           <h5>{SecondContDesc}</h5>
-          <button className="btn">REQUEST A QUOTE</button>
+          <button className="btn" onClick={() => navigate("/contact-us")}>
+            REQUEST A QUOTE
+          </button>
         </div>
       </div>
       <Card

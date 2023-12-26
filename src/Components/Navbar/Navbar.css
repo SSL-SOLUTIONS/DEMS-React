@@ -4,7 +4,6 @@
 }
 
 #menu .main-menu {
-  
   display: none;
 }
 
@@ -33,7 +32,7 @@
   position: relative;
   display: block;
   color: #000000;
-  font-size: 1rem;
+  font-size: 0.93rem;
   font-weight: 600;
 }
 
@@ -80,7 +79,6 @@
 #menu li label.drop-icon {
   position: absolute;
   right: 1.5em;
-  top: 1.25em;
 }
 
 #menu label.drop-icon,
@@ -126,9 +124,11 @@
   }
 }
 
-@media only screen and (min-width: 52em) {
+@media only screen and (min-width: 80em) {
   #menu .main-menu {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
   }
 
   #toggle-menu,

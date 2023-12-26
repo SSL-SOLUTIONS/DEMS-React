@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { MDBContainer, MDBCol, MDBRow } from "mdb-react-ui-kit";
 import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
@@ -6,6 +6,9 @@ import "./About.css";
 import SalesTeam from "../../Components/SalesTeam/SalesTeam";
 import TrustedClient from "../../Components/TrustedClients/TrustedClient";
 const About = () => {
+  useEffect(() => {
+    document.title = "DEMS is fully committed to grow your audience";
+  }, []);
   return (
     <>
       <Navbar />
@@ -60,8 +63,8 @@ const About = () => {
           </div>
         </div>
       </div>
-      <TrustedClient/>
-      <div className="container mt-5">
+      <TrustedClient />
+      <div className="container mt-5" id="our-team">
         <MDBRow>
           <MDBCol lg={4} md={12} className="mb-4 mb-lg-0">
             <div className="image-container position-relative">
@@ -150,7 +153,7 @@ const About = () => {
           </MDBCol>
         </MDBRow>
       </div>
-      <SalesTeam/>
+      <SalesTeam />
       <Footer />
     </>
   );

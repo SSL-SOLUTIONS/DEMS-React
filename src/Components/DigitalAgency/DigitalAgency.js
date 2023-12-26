@@ -3,7 +3,7 @@ import "./DigitalAgency.css";
 const DigitalAgency = () => {
   return (
     <>
-      <div className="digagency-wrapper">
+      <div className="digagency-wrapper" id="awards">
         <h6>DIGITAL MARKETING AGENCY</h6>
         <h4>
           We have achieved lot of Awards & Recognitions Check some of our

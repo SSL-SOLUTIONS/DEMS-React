@@ -52,6 +52,9 @@
 .right-txt > ul li{
   margin: 1rem 0;
 }
+.right-txt > ul li:hover{
+  font-weight: 700;
+}
 
 @media screen and (max-width: 730px ) {
   .service-wrapper {

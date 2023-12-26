@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Services from "../Services";
 
 const PPC = () => {
+  useEffect(() => {
+    document.title =
+      "Best PPC Agency - Hire the #1 Ranked PPC Company to Manage your Buisness";
+  }, []);
   return (
     <>
       <Services

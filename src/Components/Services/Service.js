@@ -1,7 +1,9 @@
 import React from 'react'
 import "./Service.css"
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 const Service = () => {
+    const navigate = useNavigate();
+
   return (
     <>
       <h1 className="service-head">Our Services</h1>
@@ -17,7 +19,8 @@ const Service = () => {
           </h6>
         </div>
         <div className="right-txt">
-          <button>KNOW MORE</button> <br /> <br />
+          <button onClick={() => navigate("/about-us")}>KNOW MORE</button>{" "}
+          <br /> <br />
           <p>
             From building a new website to growing your social following, our
             digital experts are ready to help you achieve all your marketing
@@ -26,36 +29,36 @@ const Service = () => {
           <br />
           <br />
           <ul>
-            <h4>Services we can help you with.</h4>
+            <h4>Services we can help you with. <br /> (Please Visit by Clicking)</h4>
             <Link to="/seo-services">
               {" "}
               <li>SEO Services</li>
             </Link>
-            <Link to="/seo-services">
+            <Link to="/local-seo-services">
               {" "}
               <li>Local SEO</li>
             </Link>
-            <Link to="/seo-services">
+            <Link to="/enterprise-seo-services">
               {" "}
               <li> Enterprise SEO</li>
             </Link>
-            <Link to="">
+            <Link to="/link-building-services">
               {" "}
               <li>Link Building </li>
             </Link>
-            <Link to="">
+            <Link to="/google-ads-management-services">
               {" "}
               <li>Google PPC</li>
             </Link>
-            <Link to="">
+            <Link to="/youtube-advertising-services">
               {" "}
               <li>Youtube Marketing</li>
             </Link>
-            <Link to="">
+            <Link to="/facebook-advertising-services">
               {" "}
               <li>Facebook Marketing</li>
             </Link>
-            <Link to="">
+            <Link to="/reputation-management-services">
               {" "}
               <li>Reputation Management</li>
             </Link>

@@ -23,38 +23,12 @@
   margin-top: -1rem;
   font-size: 1.2rem;
 }
-.servicesPage-right > form {
-  background-color: #fff;
-  padding: 1rem;
-  color: #181e4e;
-}
-.servicesPage-right > form > h2 {
-  font-weight: 700;
-}
-.servicesPage-right > form > h5 {
-  color: rgb(107, 107, 107);
-}
-.form-cont {
-  display: flex;
-  flex-direction: column;
-}
-.form-cont > input {
-  border: none;
-  border-bottom: 1px solid rgb(17, 17, 17);
-  margin: 1rem 0;
-  outline: none;
-  color: gray;
-  width: 25rem;
-      padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-  font-size: 1.2rem;
-}
 
 .servicePage-second-cont {
   background-image: url(/public/services-second-cont.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-      background-position: 100%;
+  background-position: 100%;
   height: 100%;
   color: #fff;
   padding: 3rem;
@@ -62,16 +36,15 @@
 }
 .servicePage-second-cont .txt {
   width: 50%;
+  border-left: 3px solid white;
+  padding-left: 1rem;
 }
 .servicePage-second-cont .txt > h1 {
-  font-size: 4rem;
+  font-size: 3.4rem;
   font-weight: 700;
 }
 .servicePage-second-cont .txt > button {
   margin-top: 2rem;
-}
-.form-cont > .btn{
-  width: 100%;
 }
 
 @media screen and (max-width: 1145px) {
@@ -91,23 +64,23 @@
   .form-cont > input {
     width: 100%;
   }
-  .servicePage-second-cont{
-      background-size: cover;
-      background-position: center;
+  .servicePage-second-cont {
+    background-size: cover;
+    background-position: center;
     padding: 1rem;
   }
-.servicePage-second-cont .txt {
-  width: 100%;
+  .servicePage-second-cont .txt {
+    width: 100%;
+  }
+  .servicePage-second-cont .txt > h1 {
+    font-size: 3.3rem;
+  }
 }
-.servicePage-second-cont .txt > h1{
-  font-size: 3.3rem;
-}
-}
-@media screen and (max-width:550px) {
-    .servicesPage-left-txt > h1 {
-  font-size: 3rem;
-  overflow: hidden;
-}
+@media screen and (max-width: 550px) {
+  .servicesPage-left-txt > h1 {
+    font-size: 3rem;
+    overflow: hidden;
+  }
 }
 @media screen and (max-width: 500px) {
   .servicesPage-wrapper {

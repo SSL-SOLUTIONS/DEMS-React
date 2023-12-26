@@ -28,7 +28,6 @@
   grid-gap: 1rem;
   padding: 2rem; /* Adjust padding as needed */
   justify-content: center; /* Center the cards horizontally */
-  align-items: baseline; /* Center the cards vertically */
 }
 .card {
    height: auto;

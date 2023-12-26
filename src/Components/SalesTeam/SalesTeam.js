@@ -1,6 +1,8 @@
 import React from 'react'
 import "./SalesTeam.css"
+import { useNavigate } from 'react-router-dom';
 const SalesTeam = () => {
+  const navigate = useNavigate();
   return (
     <>
       <div className="sales-wrapper">
@@ -9,13 +11,20 @@ const SalesTeam = () => {
         <div className="bottom-cont">
           <div className="left-text">
             <h1>
-              Book a meeting <span> <br />to get started</span>
+              Book a meeting{" "}
+              <span>
+                {" "}
+                <br />
+                to get started
+              </span>
             </h1>
             <h6>
               Speak to an expert to find out how Digital Consumer Intelligence
               will change the way you work.
             </h6>
-            <button>BOOK A MEETING</button>
+            <button onClick={() => navigate("/contact-us")}>
+              BOOK A MEETING
+            </button>
           </div>
           <div className="right-img">
             <img src="/salesTeam/sales.jpg" alt="" />

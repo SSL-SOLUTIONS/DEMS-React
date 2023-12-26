@@ -4,6 +4,8 @@ import { FaLocationDot } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
 import "./Footer.css";
 import { Link } from "react-router-dom";
+import { NavHashLink } from "react-router-hash-link";
+
 const Footer = () => {
   return (
     <footer>
@@ -39,12 +41,23 @@ const Footer = () => {
           <div className="list list-2">
             <ul>
               <h4>INDUSTRIES</h4>
-              <li>Luxury Communities</li>
-              <li>Franchise</li>
-              <li>E-Commerce</li>
-              <li>Crypto</li>
-              <li>Assisted Living </li>
-              <li>Other</li>
+              <li>
+                <Link to="/luxury-communities/seo-services">
+                  Luxury Communities
+                </Link>
+              </li>
+              <li>
+                <Link to="/Franchise-industry">Franchise</Link>
+              </li>
+              <li>
+                <Link to="/E-commerce-industry">E-Commerce</Link>
+              </li>
+              <li>
+                <Link to="/Crypto-industry">Crypto</Link>
+              </li>
+              <li>
+                <Link to="/Assisted-Living-industry">Assisted Living</Link>{" "}
+              </li>
             </ul>
           </div>
           <div className="list list-3">
@@ -54,9 +67,14 @@ const Footer = () => {
                 {" "}
                 <li>About Us</li>
               </Link>
-              <li>Our Team</li>
+              <li>
+                <NavHashLink to="/about-us#our-team">Our Team</NavHashLink>
+              </li>
               <li>Testimonials</li>
-              <li>Awards</li>
+              <li>
+                {" "}
+                <NavHashLink to="/#awards">Awards</NavHashLink>
+              </li>
             </ul>
             <ul>
               <h4>NEWS</h4>
@@ -67,15 +85,30 @@ const Footer = () => {
             <ul>
               <h4>CAREERS</h4>
               <li>Careers</li>
-              <li>Applicant Privacy</li>
+              <li>
+                <Link to="/about-us">Applicant Privacy</Link>
+              </li>
             </ul>
             <ul>
               <h4>CONTACT US</h4>
-              <li>Support</li>
-              <li>Business Inquiries</li>
-              <li>@Facebook</li>
-              <li>@Twitter</li>
-              <li>@LinkedIn</li>
+              <li>
+                <Link to="/contact-us">Business Inquiries</Link>
+              </li>
+              <li>
+                <Link to="https://www.facebook.com/sslsolution.net">
+                  @Facebook
+                </Link>
+              </li>
+              <li>
+                <Link to="https://api.whatsapp.com/send?phone=923444997389">
+                  @Whatsapp
+                </Link>
+              </li>
+              <li>
+                <Link to="https://www.linkedin.com/in/ssl-solutions-72374621b/">
+                  @LinkedIn
+                </Link>
+              </li>
             </ul>
           </div>
           <div className="list list-5">
@@ -117,3 +150,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

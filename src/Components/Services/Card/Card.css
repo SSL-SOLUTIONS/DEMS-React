@@ -38,7 +38,8 @@
 }
 
 .btn {
-  width: 15rem;
+  max-width: 15rem;
+  min-width: max-content;
 }
 
 @media screen and (max-width: 1145px) {

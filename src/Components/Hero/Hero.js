@@ -1,7 +1,9 @@
 import React from "react";
 import "./Hero.css";
 import TrustedClient from "../TrustedClients/TrustedClient";
+import { useNavigate } from "react-router-dom";
 const Hero = () => {
+  const navigate = useNavigate();
   return (
     <>
       <div className="hero-wrapper">
@@ -18,14 +20,16 @@ const Hero = () => {
           </div>
           <div className="hero-left-input">
             <input type="text" name="" id="" />
-            <button>FREE WEB ANALYSIS</button>
+            <button onClick={() => navigate("/contact-us")}>
+              FREE WEB ANALYSIS
+            </button>
           </div>
         </div>
         <div className="hero-right">
           <img src="/logos/hero.jpg" alt="hero-img" />
         </div>
       </div>
-      <TrustedClient/>
+      <TrustedClient />
     </>
   );
 };

@@ -1,7 +1,11 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Services from "../Services";
 
 const SEO = () => {
+   useEffect(() => {
+     document.title =
+       "Best Social Media Marketing Agency - Hire the #1 Awarded Social Media Managment Company to Manage your Buisness";
+   }, []);
   return (
     <>
       <Services

@@ -2,6 +2,7 @@
   width: 90%;
   overflow: hidden;
   margin: 2rem auto;
+  cursor: pointer;
 }
 
 .accord > h1 {
@@ -17,20 +18,20 @@
   padding: 0;
   display: flex;
   transition: transform 0.5s ease;
-  flex-wrap: nowrap; /* Disable wrapping */
+  flex-wrap: nowrap;
 }
 
 .accord ul li {
-  width: 40vw; /* Adjusted default width */
+  width: 40vw; 
   overflow: hidden;
-  transition: width 1s ease; /* Adjusted transition timing for slow opening */
+  transition: width 1s ease; 
   position: relative;
   z-index: 1;
 }
 
 .accord ul li:hover {
-  width: 100vw; /* On hover, full viewport width */
-  z-index: 2; /* Bring hovered card to the front */
+  width: 100vw; 
+  z-index: 2; 
 }
 
 .accord ul li img {
@@ -88,3 +89,16 @@
 .accord ul li:hover .title > p.displayed {
   display: none;
 }
+
+
+/* Add media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .accord ul {
+    flex-direction: column; /* Display cards in a column on smaller screens */
+  }
+
+  .accord ul li {
+    width: 100%; /* Set the width to 100% for a full-width column */
+  }
+}
+
