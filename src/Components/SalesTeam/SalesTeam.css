@@ -41,6 +41,7 @@
   font-weight: 600;
   letter-spacing: 2px;
   cursor: pointer;
+  animation: beat 1.5s ease-in-out 1s infinite normal forwards;
 }
 .left-text > button:hover {
   color: #181e4e;
@@ -81,3 +82,5 @@
   overflow: hidden;
 } 
 }
+
+

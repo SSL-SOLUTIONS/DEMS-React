@@ -1,5 +1,6 @@
 .contact-top {
   display: flex;
+  padding-top: 3rem;
   color: black;
 }
 .contact-left {

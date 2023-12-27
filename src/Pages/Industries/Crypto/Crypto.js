@@ -1,6 +1,10 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Industries from "../Industries";
 const Crypto = () => {
+         useEffect(() => {
+           document.title =
+             "DEMS - Crypto Buisness and Company | Our Crypto Services";
+         }, []);
   return (
     <>
       <Industries

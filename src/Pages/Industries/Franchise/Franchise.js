@@ -1,6 +1,9 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Industries from "../Industries";
 const Franchise = () => {
+        useEffect(() => {
+          document.title = "DEMS - Franchise Buisness and Company | Our Franchise Services";
+        }, []);
   return (
     <>
       <Industries

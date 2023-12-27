@@ -1,0 +1,15 @@
+.testimonal-cont{
+    text-align: center;
+    width: 90%;
+    margin: 3rem auto;
+}
+.testimonal-cont > p{
+    color: #3070B5;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.testimonal-cont > h1{
+    color: #181E4E;
+    font-size: 3.3rem;
+    font-weight: 700;
+}

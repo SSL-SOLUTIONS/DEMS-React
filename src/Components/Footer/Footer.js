@@ -70,15 +70,13 @@ const Footer = () => {
               <li>
                 <NavHashLink to="/about-us#our-team">Our Team</NavHashLink>
               </li>
-              <li>Testimonials</li>
+              <li>
+                <Link to="/testimonials">Testimonials</Link>
+              </li>
               <li>
                 {" "}
                 <NavHashLink to="/#awards">Awards</NavHashLink>
               </li>
-            </ul>
-            <ul>
-              <h4>NEWS</h4>
-              <li>Press & Media</li>
             </ul>
           </div>
           <div className="list list-4">
@@ -150,4 +148,3 @@ const Footer = () => {
 };
 
 export default Footer;
-

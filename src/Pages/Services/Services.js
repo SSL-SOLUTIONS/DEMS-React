@@ -9,6 +9,7 @@ import Card from "../../Components/Services/Card/Card";
 import LionCont from "../../Components/LionCont/LionCont";
 import Form from "../../Components/Form/Form";
 import { useNavigate } from "react-router-dom";
+import MarketTailored from "../../Components/MarketTailored/MarketTailored";
 const Services = (props) => {
   const navigate = useNavigate();
   const {
@@ -51,8 +52,7 @@ const Services = (props) => {
           <Form />
         </div>
       </div>{" "}
-      <br />
-      <TrustedClient />
+      <MarketTailored/>
       <div className="servicePage-second-cont">
         <div className="txt">
           <h1>{secondContSlogan}</h1> <br />

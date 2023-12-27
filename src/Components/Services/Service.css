@@ -35,6 +35,7 @@
   font-weight: 600;
   letter-spacing: 2px;
   box-shadow: rgb(244 244 245) 9px 10px 9px -6px;
+  animation: beat 1.5s ease-in-out 1s infinite normal forwards;
   cursor: pointer;
 }
 .right-txt > button:hover {

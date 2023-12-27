@@ -1,0 +1,53 @@
+.marketTailorCont {
+  padding: 2rem 1rem;
+  background-color: #f9f9ff;
+  width: 100%;
+}
+
+.marketTailorCont > h4 {
+  display: inline-block;
+  color: #181e4e;
+  font-weight: 700;
+}
+.marketTailorCont > .cards {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+
+}
+.text{
+  width: 100%;
+}
+.tailoredCards {
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    display: flex;
+    padding: 0.5rem;
+    height: auto;
+    align-items: center;
+    width: 100%;
+}
+.tailoredCards > .img {
+  margin-right: 0.5rem 0;
+  padding: 5px;
+}
+.tailoredCards > .text > h5 {
+  color: black;
+}
+.tailoredCards > .text > p {
+  font-size: 0.8rem;
+  width: 90%;
+}
+
+@media screen and (max-width: 1170px){
+
+  .marketTailorCont > .cards {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+}

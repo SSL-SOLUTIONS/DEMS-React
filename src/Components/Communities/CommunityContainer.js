@@ -16,7 +16,7 @@ const CommunityContainer = () => {
       percentDescription: "ROAS",
       userTitle: "Wade Warren",
       userDescription:
-        "Our conversions increased by 34% after just 1 month of running new PPC campaigns. DMA guided us through every step of the planning phase, from research to launch.",
+        "Our conversions increased by 34% after just 1 month of running new PPC campaigns. DEMS guided us through every step of the planning phase, from research to launch.",
       image: "/communities/buildings.jpg",
     },
     Crypto: {
@@ -30,7 +30,7 @@ const CommunityContainer = () => {
       percentDescription: "Increase in Token value",
       userTitle: "David Lynch - Director",
       userDescription:
-        "The team at DMA was surprisingly knowledgeable about the crypto space. They did a phenomenal job helping us with our PR and overall brand management.",
+        "The team at DEMS was surprisingly knowledgeable about the crypto space. They did a phenomenal job helping us with our PR and overall brand management.",
       image: "/communities/crypto.jpg",
     },
     Ecommerce: {
@@ -57,7 +57,7 @@ const CommunityContainer = () => {
       percentDescription: "Increase in Organic Traffic",
       userTitle: "James McNamara",
       userDescription:
-        "“DMA took our site from 300 visitors a day to over 10,000 in just 3 months by helping us build high-quality backlinks.",
+        "“DEMS took our site from 300 visitors a day to over 10,000 in just 3 months by helping us build high-quality backlinks.",
       image: "/communities/franchise.jpg",
     },
     Other: {
@@ -71,7 +71,7 @@ const CommunityContainer = () => {
       percentDescription: "Marketing Spend Efficiency",
       userTitle: "Joe D’Souza - Director",
       userDescription:
-        "We typically have to hire multiple agencies to help us with our different businesses. But DMA had the breadth of expertise to assist us with marketing across our various industries and brands.",
+        "We typically have to hire multiple agencies to help us with our different businesses. But DEMS had the breadth of expertise to assist us with marketing across our various industries and brands.",
       image: "/communities/others.jpg",
     },
   };

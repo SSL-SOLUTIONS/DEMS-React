@@ -1,6 +1,10 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Industries from "../Industries";
 const AssistLiving = () => {
+         useEffect(() => {
+           document.title =
+             "DEMS - Assist living Buisness and Company | Our Assist Living Services";
+         }, []);
   return (
     <>
       <Industries

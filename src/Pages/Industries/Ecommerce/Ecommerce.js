@@ -1,6 +1,10 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Industries from "../Industries";
 const Ecommerce = () => {
+         useEffect(() => {
+           document.title =
+             "DEMS - Ecommerce Buisness and Company | Our Ecommerce Services";
+         }, []);
   return (
     <>
       <Industries

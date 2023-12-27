@@ -24,25 +24,23 @@ const Navbar = () => {
                 <Link to="/">Free SEO Analysis</Link>
               </li>
               <li>
-                <Link to="/">SEO Services</Link>
+                <Link to="/seo-services">SEO Services</Link>
               </li>
 
               <li>
-                <Link to="/">Content Marketing Services</Link>
+                <Link to="/content-marketing-services">
+                  Content Marketing Services
+                </Link>
               </li>
               <li>
-                <Link to="/">Local SEO</Link>
+                <Link to="/local-seo-services">Local SEO</Link>
               </li>
               <li>
-                <Link to="/">Ecommerce SEO</Link>
+                <Link to="/ecommerce-seo-services">Ecommerce SEO</Link>
                 <input type="checkbox" id="sm2" />
               </li>
               <li>
-                <Link to="/">Link Building Services</Link>
-              </li>
-              <li>
-                <Link to="/">Specialized SEO Services</Link>
-                <input type="checkbox" id="sm2" />
+                <Link to="/link-building-services">Link Building Services</Link>
               </li>
             </ul>
           </li>
@@ -52,19 +50,19 @@ const Navbar = () => {
             <input type="checkbox" id="sm1" />
             <ul className="sub-menu">
               <li>
-                <Link to="/">Free PPC Analysis</Link>
+                <Link to="/ppc-management-services">Free PPC Analysis</Link>
               </li>
               <li>
                 <Link to="/">PPC Management Services</Link>
               </li>
               <li>
-                <Link to="/">Remarketing</Link>
+                <Link to="/ppc-retargeting-ads-services">Remarketing</Link>
               </li>
               <li>
-                <Link to="/">Mobile PPC</Link>
+                <Link to="/mobile-ppc-services">Mobile PPC</Link>
               </li>
               <li>
-                <Link to="/">Specialized PPC Services</Link>
+                <Link to="/contact-us">Specialized PPC Services</Link>
               </li>
             </ul>
           </li>
@@ -75,16 +73,19 @@ const Navbar = () => {
             <input type="checkbox" id="sm1" />
             <ul className="sub-menu">
               <li>
-                <Link to="/">Free Reputation Management Analysis</Link>
+                <Link to="/reputation-management-services">
+                  Free Reputation Management Analysis
+                </Link>
               </li>
               <li>
-                <Link to="/">Reputation Management Services</Link>
+                <Link to="/reputation-management-services">
+                  Review Management Services
+                </Link>
               </li>
               <li>
-                <Link to="/">Review Management Services</Link>
-              </li>
-              <li>
-                <Link to="/">Specialized Reputation Management Services</Link>
+                <Link to="/contact-us">
+                  Specialized Reputation Management Services
+                </Link>
               </li>
             </ul>
           </li>
@@ -93,13 +94,17 @@ const Navbar = () => {
             <input type="checkbox" id="sm1" />
             <ul className="sub-menu">
               <li>
-                <Link to="/">Free Social Media Analysis</Link>
+                <Link to="/social-media-marketing-services">
+                  Free Social Media Analysis
+                </Link>
               </li>
               <li>
-                <Link to="/">Social Media Optimization Services</Link>
+                <Link to="/social-media-marketing-services">
+                  Social Media Optimization Services
+                </Link>
               </li>
               <li>
-                <Link to="/">Specialized Social Services</Link>
+                <Link to="/contact-us">Specialized Social Services</Link>
               </li>
             </ul>
           </li>
@@ -108,19 +113,15 @@ const Navbar = () => {
             <input type="checkbox" id="sm1" />
             <ul className="sub-menu">
               <li>
-                <Link to="/">Free Website Analysis</Link>
+                <Link to="/web-development-company">Free Website Analysis</Link>
               </li>
               <li>
-                <Link to="/">Web Development Services</Link>
+                <Link to="/website-maintenance-services">
+                  Website Maintenance Services
+                </Link>
               </li>
               <li>
-                <Link to="/">Mobile Development Services</Link>
-              </li>
-              <li>
-                <Link to="/">Website Maintenance Services</Link>
-              </li>
-              <li>
-                <Link to="/">Specialized Development Services</Link>
+                <Link to="/contact-us">Specialized Development Services</Link>
               </li>
             </ul>
           </li>
@@ -134,10 +135,14 @@ const Navbar = () => {
                 <Link to="/">Free Marketing Automation Analysis</Link>
               </li>
               <li>
-                <Link to="/">Marketing Automation Services</Link>
+                <Link to="/marketing-automation-services">
+                  Marketing Automation Services
+                </Link>
               </li>
               <li>
-                <Link to="/">Specialized Marketing Automation Services</Link>
+                <Link to="/contact-us">
+                  Specialized Marketing Automation Services
+                </Link>
               </li>
             </ul>
           </li>
@@ -171,6 +176,9 @@ const Navbar = () => {
             <ul className="sub-menu">
               <li>
                 <Link to="/contact-us">Contact</Link>
+              </li>
+              <li>
+                <Link to="/testimonials">Reviews</Link>
               </li>
             </ul>
           </li>
