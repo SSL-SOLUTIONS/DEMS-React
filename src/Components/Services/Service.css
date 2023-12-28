@@ -1,6 +1,6 @@
-.service-head{
-    text-align: center;
-    color: #181E4E;
+.service-head {
+  text-align: center;
+  color: #181e4e;
 }
 .service-wrapper {
   background-color: #285c90;
@@ -21,22 +21,24 @@
   font-weight: 700;
   font-size: 3.5rem;
 }
+.left-txt > h6 {
+  line-height: 2.2rem;
+}
 .right-txt {
   width: 50%;
 }
 .service-wrapper .right-txt > button {
   padding: 1rem 1.75rem;
-  background-color: #181e4e;
-  color: #fff;
+  background-color: #facc15;
+  color: BLACk;
   border: none;
   text-transform: uppercase;
   font-weight: 400;
   transition: 0.1s;
   font-weight: 600;
   letter-spacing: 2px;
-  box-shadow: rgb(244 244 245) 9px 10px 9px -6px;
-  animation: beat 1.5s ease-in-out 1s infinite normal forwards;
   cursor: pointer;
+  animation: beat 1.5s ease-in-out 1s infinite normal forwards;
 }
 .right-txt > button:hover {
   color: #181e4e;
@@ -46,29 +48,32 @@
   border-radius: 10px;
 }
 
-.right-txt > ul > a{
+.right-txt > ul > a {
   color: white;
-
 }
-.right-txt > ul li{
+.serviceList > h6 {
+  color: #facc15;
+}
+.right-txt > ul li {
   margin: 1rem 0;
 }
-.right-txt > ul li:hover{
+.right-txt > ul li:hover {
   font-weight: 700;
 }
 
-@media screen and (max-width: 730px ) {
+@media screen and (max-width: 730px) {
   .service-wrapper {
     display: flex;
     flex-flow: column;
   }
-  .service-wrapper > .left-txt,  .right-txt {
+  .service-wrapper > .left-txt,
+  .right-txt {
     width: 100%;
-    
-  }.right-txt > button {
+  }
+  .right-txt > button {
     margin-top: 2rem;
   }
-  .left-txt > h1{
+  .left-txt > h1 {
     font-size: 3rem;
   }
 }

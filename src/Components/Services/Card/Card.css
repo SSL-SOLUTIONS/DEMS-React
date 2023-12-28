@@ -37,7 +37,7 @@
   object-fit: cover;
 }
 
-.btn {
+.card-left > .btn {
   max-width: 15rem;
   min-width: max-content;
 }

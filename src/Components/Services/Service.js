@@ -28,8 +28,8 @@ const Service = () => {
           </p>
           <br />
           <br />
-          <ul>
-            <h4>Services we can help you with. <br /> (Please Visit by Clicking)</h4>
+          <ul className='serviceList'>
+            <h6>Services we can help you with. <br /> (Please Visit by Clicking)</h6>
             <Link to="/seo-services">
               {" "}
               <li>SEO Services</li>

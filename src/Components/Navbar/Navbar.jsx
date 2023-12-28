@@ -9,7 +9,7 @@ const Navbar = () => {
     <div className="navbar-wrapper">
       <TopBar />
       <nav id="menu">
-        <label for="tm" id="toggle-menu">
+        <label htmlFor="tm" id="toggle-menu">
           <span className="drop-icon">
             <GiHamburgerMenu />
           </span>

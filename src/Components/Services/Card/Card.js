@@ -1,9 +1,9 @@
-import React from 'react'
-import "./Card.css"
-import { useNavigate } from 'react-router-dom';
+import React from "react";
+import "./Card.css";
+import { useNavigate } from "react-router-dom";
 const Card = (props) => {
   const navigate = useNavigate();
-    const { heading, title, description, btnText,img } = props;
+  const { heading, title, description, btnText, img } = props;
   return (
     <div className="card-wrapper">
       <div className="card-left">
@@ -22,6 +22,6 @@ const Card = (props) => {
       </div>
     </div>
   );
-}
+};
 
-export default Card
+export default Card;

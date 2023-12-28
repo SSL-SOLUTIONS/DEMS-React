@@ -34,6 +34,7 @@ import Remarketing from "./Pages/Services/PPC/Remarketing/Remarketing";
 import MobilePPC from "./Pages/Services/PPC/MobilePPC/MobilePPC";
 import WebMaintainance from "./Pages/Services/WebDev/WebMaintainance/WebMaintainance";
 import Testimonal from "./Pages/Testimonal/Testimonal";
+import Regards from "./Pages/Regards/Regards";
 
 function App() {
   return (
@@ -127,6 +128,9 @@ function App() {
 
         {/* Contact */}
         <Route path="/contact-us" element={<Contact />} />
+
+        {/* Thank YOu */}
+        <Route path="/thank-you" element={<Regards />} />
       </Routes>
     </div>
   );

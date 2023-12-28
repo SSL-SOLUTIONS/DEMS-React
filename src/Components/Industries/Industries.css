@@ -6,10 +6,10 @@
 }
 
 .accord > h1 {
-  color: #181E4E;
-    text-align: center;
-    width: 75%;
-    margin: 1rem auto;
+  color: #181e4e;
+  text-align: center;
+  width: 75%;
+  margin: 1rem auto;
 }
 
 .accord ul {
@@ -23,16 +23,16 @@
 
 .accord ul li {
   border-right: 1px solid white;
-  width: 40vw; 
+  width: 40vw;
   overflow: hidden;
-  transition: width 2s ease; 
+  transition: width 2s ease;
   position: relative;
   z-index: 1;
 }
 
 .accord ul li:hover {
-  width: 100vw; 
-  z-index: 2; 
+  width: 100vw;
+  z-index: 2;
 }
 
 .accord ul li img {
@@ -60,19 +60,17 @@
   transition: opacity 0.5s ease-in;
 }
 
-.accord ul li .title a {
-  text-decoration: none; /* Remove underline from title */
-}
-
 .accord ul li:hover .title {
   opacity: 1; /* Keep title visible on hover */
 }
+.title > p{
+  opacity: 1;
+}
 
-.title a {
-  font-size: 110%;
+.title h5 {
   text-transform: capitalize;
-  text-decoration: none;
   color: white;
+  font-weight: 600;
 }
 
 .title > p {
@@ -91,7 +89,6 @@
   display: none;
 }
 
-
 /* Add media query for smaller screens */
 @media screen and (max-width: 768px) {
   .accord ul {
@@ -103,3 +100,24 @@
   }
 }
 
+.fade-in {
+  -webkit-animation: fade-in 1s cubic-bezier(0.39, 0.575, 0.565, 1) 1.3s both;
+  animation: fade-in 1s cubic-bezier(0.39, 0.575, 0.565, 1) 1.3s both;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

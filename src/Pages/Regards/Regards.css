@@ -1,0 +1,13 @@
+.regards-wrapper{
+    text-align: center;
+    margin: 6rem 0;
+}
+.regards-wrapper > h1{
+    color: #181E4E;
+    margin-bottom: 2rem;
+    font-size: 3.4rem;
+    font-weight: 700;
+}
+.regards-wrapper > h5{
+    color: black;
+}
