@@ -68,11 +68,18 @@
   font-weight: 900;
   color: #2b315d;
 }
+.bottom-left > h1 > a{
+  color: #2b315d;
+}
 
 .bottom-right-address,
 .bottom-right-email {
   display: flex;
   align-items: center;
+  
+}
+.bottom-right-email > span > a,.bottom-right-address > span > a {
+  color: black;
 }
 .bottom-right-address > span,
 .bottom-right-email > span {

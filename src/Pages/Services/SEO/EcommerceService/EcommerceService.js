@@ -42,7 +42,7 @@ const EcommerceService = () => {
 
 "
         card2BtnText="GET MORE INFORMATION"
-        card3Heading="DMA produces insightful SEO reports.
+        card3Heading="DEMS produces insightful SEO reports.
 "
         card3Title="Our strategies are based on your data.
 

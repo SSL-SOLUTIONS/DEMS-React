@@ -18,7 +18,7 @@ const SEO = () => {
             increase its online visibility for those searching for the products
             or services you offer. SEO marketing requires significant time and
             skills to produce a competitive strategy for the digital
-            marketplace. DMA conducts a site audit to understand the keywords
+            marketplace. DEMS conducts a site audit to understand the keywords
             your website targets, the quality of content on the website, and
             internal linking strategies to identify improvements to your SEO
             performance."

@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import {
   MDBCarousel,
   MDBCarouselInner,
@@ -15,6 +15,9 @@ import SalesTeam from "../../Components/SalesTeam/SalesTeam";
 import Excellence from "../../Components/Excellence/Excellence";
 import "./Testimonal.css"
 export default function Testimonal() {
+    useEffect(() => {
+      document.title = "DEMS's clients Testimonal Showcase - We care about our clients";
+    }, []);
   return (
     <>
       <Navbar />

@@ -35,6 +35,7 @@ import MobilePPC from "./Pages/Services/PPC/MobilePPC/MobilePPC";
 import WebMaintainance from "./Pages/Services/WebDev/WebMaintainance/WebMaintainance";
 import Testimonal from "./Pages/Testimonal/Testimonal";
 import Regards from "./Pages/Regards/Regards";
+import Blog from "./Pages/Blog/Blog";
 
 function App() {
   return (
@@ -56,7 +57,7 @@ function App() {
         <Route path="/ppc-management-services" element={<PPC />} />
         {/* Services Under PPC */}
         <Route path="/ppc-retargeting-ads-services" element={<Remarketing />} />
-        <Route path="/mobile-ppc-services " element={<MobilePPC />} />
+        <Route path="/mobile-ppc-services" element={<MobilePPC />} />
 
         <Route path="/reputation-management-services" element={<Repute />} />
         <Route
@@ -125,6 +126,9 @@ function App() {
 
         {/* Testimonal */}
         <Route path="/testimonials" element={<Testimonal />} />
+
+        {/* Blog & News*/}
+        <Route path="/Marketing-News" element={<Blog />} />
 
         {/* Contact */}
         <Route path="/contact-us" element={<Contact />} />

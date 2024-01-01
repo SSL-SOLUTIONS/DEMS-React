@@ -1,9 +1,12 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Navbar from "../../Components/Navbar/Navbar"
 import Footer from "../../Components/Footer/Footer";
 import SalesTeam from "../../Components/SalesTeam/SalesTeam"
 import "./Regards.css"
 const Regards = () => {
+    useEffect(() => {
+      document.title = "Thank You - DEMS | We care about our Customers";
+    }, []);
   return (
     <>
       <Navbar />

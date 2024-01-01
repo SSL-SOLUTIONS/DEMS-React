@@ -49,6 +49,10 @@
 .right > img {
   width: 100%;
 }
+
+
+
+
 @media screen and (max-width: 1060px) {
   .com-cont-left {
     max-width: 100%;

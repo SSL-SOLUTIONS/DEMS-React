@@ -82,7 +82,9 @@ const Footer = () => {
           <div className="list list-4">
             <ul>
               <h4>CAREERS</h4>
-              <li>Careers</li>
+              <li>
+                <Link to="/contact-us">Careers</Link>
+              </li>
               <li>
                 <Link to="/about-us">Applicant Privacy</Link>
               </li>
@@ -93,17 +95,26 @@ const Footer = () => {
                 <Link to="/contact-us">Business Inquiries</Link>
               </li>
               <li>
-                <Link to="https://www.facebook.com/sslsolution.net">
+                <Link
+                  to="https://www.facebook.com/sslsolution.net"
+                  target="_blank"
+                >
                   @Facebook
                 </Link>
               </li>
               <li>
-                <Link to="https://api.whatsapp.com/send?phone=923444997389">
+                <Link
+                  to="https://api.whatsapp.com/send?phone=923444997389"
+                  target="_blank"
+                >
                   @Whatsapp
                 </Link>
               </li>
               <li>
-                <Link to="https://www.linkedin.com/in/ssl-solutions-72374621b/">
+                <Link
+                  to="https://www.linkedin.com/in/ssl-solutions-72374621b/"
+                  target="_blank"
+                >
                   @LinkedIn
                 </Link>
               </li>
@@ -112,7 +123,9 @@ const Footer = () => {
           <div className="list list-5">
             <ul>
               <h4>BLOG</h4>
-              <li>Marketing news</li>
+              <li>
+                <Link to="/Marketing-News">Marketing news</Link>
+              </li>
             </ul>
           </div>
         </div>
@@ -123,23 +136,30 @@ const Footer = () => {
               <FaPhoneVolume className="icon" />
             </span>
             <h2>Need Help? Say Hello</h2>
-            <h1>+92-312-4700804</h1>
+            <h1><a href="tel:+923124700804">+92-312-4700804</a></h1>
           </div>
           <div className="bottom-right">
             <div className="bottom-right-address">
               <FaLocationDot className="add-icon" />
 
-              <span>313, 3rd Floor, Landmark Plaza Jail Road, Lahore</span>
+              <span>
+                <a href="https://www.google.com/maps/place/SSL+SOLUTIONS/@31.5349517,74.3462811,19z/data=!3m1!4b1!4m6!3m5!1s0x391905d3e3ae6b77:0x157a2f53f97b67c6!8m2!3d31.5349506!4d74.3469248!16s%2Fg%2F11lpw1_rd4?entry=ttu" target="_blank">
+                  {" "}
+                  313, 3rd Floor, Landmark Plaza Jail Road, Lahore
+                </a>
+              </span>
             </div>
             <div className="bottom-right-email">
               <IoIosMail className="mail-icon" />
 
-              <span>contact@demsteam.com</span>
+              <span>
+                <a href="mailto:contact@demsteam.com">contact@demsteam.com</a>
+              </span>
             </div>
           </div>
         </div>
         <p>
-          <strong>Copyright © 2023</strong> - Digital Explorers Marketing
+          <strong>Copyright © 2024</strong> - Digital Explorers Marketing
           Services. <b>(DEMS)</b>
         </p>
       </div>

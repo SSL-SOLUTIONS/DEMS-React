@@ -13,3 +13,6 @@
     font-size: 3.3rem;
     font-weight: 700;
 }
+.carousel-control-prev-icon::after,.carousel-control-next-icon::after{
+    opacity: 0;
+}

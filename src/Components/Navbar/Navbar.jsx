@@ -1,17 +1,23 @@
-import React from "react";
-import TopBar from "../TopBar/TopBar";
-import "./Navbar.css";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { AiOutlineClose } from "react-icons/ai";
+import "./Navbar.css";
+import TopBar from "../TopBar/TopBar";
 
 const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
   return (
-    <div className="navbar-wrapper">
+    <div className={`navbar-wrapper ${menuOpen ? "menu-open" : ""}`}>
       <TopBar />
       <nav id="menu">
-        <label htmlFor="tm" id="toggle-menu">
+        <label htmlFor="tm" id="toggle-menu" onClick={toggleMenu}>
           <span className="drop-icon">
-            <GiHamburgerMenu />
+            {menuOpen ? <AiOutlineClose /> : <GiHamburgerMenu />}
           </span>
         </label>
         <input type="checkbox" id="tm" />
@@ -179,6 +185,9 @@ const Navbar = () => {
               </li>
               <li>
                 <Link to="/testimonials">Reviews</Link>
+              </li>
+              <li>
+                <Link to="/Marketing-News">News</Link>
               </li>
             </ul>
           </li>

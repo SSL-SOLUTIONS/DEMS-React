@@ -75,6 +75,7 @@ const CommunityContainer = () => {
       image: "/communities/others.jpg",
     },
   };
+  
 
   return (
     <div>

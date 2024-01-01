@@ -15,12 +15,12 @@ const TopBar = () => {
         <div className="right-topBar">
           <div className="right-phone">
             <IoCall className="phone-icon" />
-            <span>+92 (312) 4700-804</span>
+            <span>
+              <a href="tel:+923124700804">+92 (312) 4700-804</a>
+            </span>
           </div>
           <Link to="/contact-us">
-            <button>
-              Request a Free Quote
-            </button>
+            <button>Request a Free Quote</button>
           </Link>
         </div>
       </div>

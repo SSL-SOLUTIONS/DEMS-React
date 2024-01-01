@@ -21,7 +21,7 @@ const MarketAutomation = () => {
         card1BtnText="REQUEST A QUOTE"
         card2Heading="Automated Conversion Optimization"
         card2Title="Leverage marketing automation for better conversions."
-        card2Description="DMA helps large and small businesses to connect with their audiences in a more meaningful way. We build campaigns that aim to convert. Our approach to conversion optimization means letting your marketing automation improve itself over time as it learns more about your users. Our automation experts continue to improve messages and strategies based on long-term performance. Meanwhile, your marketing automation works to deliver dynamic content to each audience, automatically improving your ability to convert more business."
+        card2Description="DEMS helps large and small businesses to connect with their audiences in a more meaningful way. We build campaigns that aim to convert. Our approach to conversion optimization means letting your marketing automation improve itself over time as it learns more about your users. Our automation experts continue to improve messages and strategies based on long-term performance. Meanwhile, your marketing automation works to deliver dynamic content to each audience, automatically improving your ability to convert more business."
         card2BtnText="GET MORE INFORMATION"
         card3Heading="In-Depth Lead Capturing"
         card3Title="Give your sales team what they need to succeed."

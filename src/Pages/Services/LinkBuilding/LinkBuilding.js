@@ -39,7 +39,7 @@ card1BtnText="Contact Team"
 
 
 "
-        card2Description="Gone are the days where thousands of back links can surge your search results. Companies like Google and Microsoft now look for quality over quantity and even take action against websites that engage in less-than-stellar link-building practices. At DMA, we are only interested in working on high-quality link-building projects that provide our clients with links from reputable sources. We are a white hat link-building service that ethically sources links through building positive relationships with online publishers and resources.
+        card2Description="Gone are the days where thousands of back links can surge your search results. Companies like Google and Microsoft now look for quality over quantity and even take action against websites that engage in less-than-stellar link-building practices. At DEMS, we are only interested in working on high-quality link-building projects that provide our clients with links from reputable sources. We are a white hat link-building service that ethically sources links through building positive relationships with online publishers and resources.
 
 
 "

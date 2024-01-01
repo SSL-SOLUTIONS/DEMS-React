@@ -62,3 +62,10 @@
     margin-top: 1rem;
   }
 }
+
+@media screen and (max-width: 1144px) and (min-width: 600px){
+.card-right > img{ 
+  max-width: 50%; /* Added to prevent image overflow */
+  object-fit: cover;
+}
+}

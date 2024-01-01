@@ -29,7 +29,7 @@ const Hero = () => {
               <span>SEO.</span>
             </h1>
             <p>
-              Ask DMA to create a comprehensive and aggressive digital marketing
+              Ask DEMS to create a comprehensive and aggressive digital marketing
               plan taking your business to new heights.
             </p>
           </div>

@@ -21,10 +21,10 @@
   padding: 0;
   width: min-content;
 }
-.drop-icon{
-      top: -5%;
-    position: absolute;
-    font-size: 3;
+.drop-icon {
+  top: -5%;
+  position: absolute;
+  font-size: 3;
 }
 #menu li,
 #toggle-menu,
@@ -43,16 +43,17 @@
 
 #toggle-menu,
 #menu a {
-  padding: 1em 1.2em;
+  padding: 1.4em 1.2em;
 }
 
 #menu a {
   transition: all 0.125s ease-in-out;
   -webkit-transition: all 0.125s ease-in-out;
+  text-decoration: none;
 }
 
 #menu a:hover {
-  background-color: #285C90;
+  background-color: #285c90;
   color: white;
 }
 
@@ -68,13 +69,18 @@
 }
 .sub-menu a {
   border-bottom: 1px solid rgb(171, 170, 170) !important;
-  color:black !important ;
+  color: black !important ;
   letter-spacing: 2px;
 }
 #menu .sub-menu a:hover {
   color: white !important ;
 }
-
+.main-menu {
+  padding-left: 0.75rem;
+}
+.main-menu > li {
+  border-bottom: 1px solid #b9acac;
+}
 #toggle-menu .drop-icon,
 #menu li label.drop-icon {
   position: absolute;
@@ -83,14 +89,10 @@
 
 #menu label.drop-icon,
 #toggle-menu span.drop-icon {
-  border-radius: 50%;
-  width: 1em;
-  height: 1em;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.125);
   text-shadow: 0 0 0 transparent;
-  font-size: 2rem;
-  color: black;
+  font-size: 2.4rem;
+  color: #181e4e;
 }
 
 #menu .drop-icon {

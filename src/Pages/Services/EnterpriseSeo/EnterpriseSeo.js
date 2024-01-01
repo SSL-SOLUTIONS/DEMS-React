@@ -8,7 +8,7 @@ const EnterpriseSeo = () => {
         Slogan="#1 RANKED"
         title="ENTERPRISE SEO AGENCY"
         titleDesc="Hire our specialists to deliver premium KPI-driven SEO services for enterprise brands."
-        secondContSlogan="Over 30 Enterprise Brands Rely on DMA."
+        secondContSlogan="Over 30 Enterprise Brands Rely on DEMS."
         SecondContTitle="Capitalize on our enterprise-level expertise & capabilities."
         SecondContDesc="Our enterprise SEO team is experienced and research-driven, ensuring that each step of the process is given the best opportunity to make an impact on campaign performance. Our team uses in-house tools built for enterprise keyword research that’s in line with each client's unique objectives and success tracking. We use custom automation tools for implementation and in-depth auditing at the granular level to ensure each part of your campaign meets key objectives. We also provide unique analytics to provide access to performance indexes for all facets of the campaign."
         card1Heading="AUDIENCE-TAILORED

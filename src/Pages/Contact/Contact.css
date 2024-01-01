@@ -45,6 +45,12 @@
 .inner-title > p {
   width: 70%;
 }
+.sub-inner > span{
+  color: rgb(118, 118, 118);
+}
+.sub-inner > p > a {
+  color: black;
+}
 .left-subCont > .sub-inner {
   text-align: center;
 }
@@ -56,19 +62,20 @@
 }
 
 @media screen and (max-width: 800px) {
-  .left-subCont,.contact-top  {
+  .left-subCont,
+  .contact-top {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .inner-email{
+  .inner-email {
     text-align: center;
   }
-  .contact-left{
+  .contact-left {
     width: 100%;
   }
-  .contact-left > h1{
+  .contact-left > h1 {
     font-size: 2.3rem;
   }
 }

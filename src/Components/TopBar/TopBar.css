@@ -42,6 +42,9 @@
 .right-phone > span {
   margin-left: 4px;
 }
+.right-phone > span > a {
+  color: black;
+}
 .right-phone > .phone-icon {
   text-align: center;
 }

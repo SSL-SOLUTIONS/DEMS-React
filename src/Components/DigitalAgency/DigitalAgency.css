@@ -29,7 +29,7 @@
   padding: 2rem; /* Adjust padding as needed */
   justify-content: center; /* Center the cards horizontally */
 }
-.card {
+.in-cards > .card {
    height: auto;
   width: 100%;
   max-width: 370px;
@@ -57,7 +57,7 @@
   margin-top: 1rem;
 }
 
-.card:hover {
+.in-cards > .card:hover {
   background-color: #181e4e;
   color: white !important;
   cursor: pointer;
