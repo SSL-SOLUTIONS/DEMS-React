@@ -3,6 +3,8 @@ import "./Form.css";
 import { useNavigate } from "react-router-dom";
 
 const Form = () => {
+
+  const baseURL = "http://localhost:8080";
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
     Name: "",
@@ -26,7 +28,7 @@ const Form = () => {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch("http://localhost:8080/contact/submitForm", {
+      const response = await fetch(`${baseURL}/contact/submitForm`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
