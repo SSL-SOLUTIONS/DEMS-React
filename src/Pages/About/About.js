@@ -14,9 +14,25 @@ const About = () => {
       <Navbar />
       <div className="about-wrapper">
         <div className="top-first">
-          <h6>ABOUT US</h6>
-          <h1>OUR COMMITMENT</h1>
-          <h4>
+          <h6
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            ABOUT US
+          </h6>
+          <h1
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            OUR COMMITMENT
+          </h1>
+          <h4
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             We’re constantly searching for the brightest people from all over
             the world. People who are as trusted as they are talented and as
             passionate about their work as they are about their team. People who
@@ -24,7 +40,13 @@ const About = () => {
           </h4>
         </div>
         <div className="compare">
-          <div className="left">
+          <div
+            className="left"
+            data-aos="fade-right"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="1000"
+          >
             <div className="top">
               <div className="left-image">
                 <img src="/about/compare1.png" alt="" />
@@ -44,7 +66,13 @@ const About = () => {
           <div className="middle">
             <h2>VS.</h2>
           </div>
-          <div className="right">
+          <div
+            className="right"
+            data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="1000"
+          >
             <div className="top">
               <div className="right-image">
                 <img src="/about/compare2.png" alt="" />

@@ -78,7 +78,7 @@ const Industries = () => {
       className="accord"
       onClick={() => navigate("/luxury-communities/seo-services")}
     >
-      <h1>
+      <h1 data-aos="fade-up" data-aos-duration="1000">
         Our Projects And Experience Span Across A Wide Range Of Top Growing
         Industries.
       </h1>
@@ -87,10 +87,8 @@ const Industries = () => {
           <li key={index}>
             <img src={card.image} alt={card.title} />
             <div className="title">
-            <p style={{textAlign: "left"}}>0{card.number}</p>
-              <h5>
-               {card.title}
-              </h5>
+              <p style={{ textAlign: "left" }}>0{card.number}</p>
+              <h5>{card.title}</h5>
               <p className="fade-in">{card.description}</p>
             </div>
           </li>

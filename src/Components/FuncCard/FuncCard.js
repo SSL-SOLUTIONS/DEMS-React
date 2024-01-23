@@ -6,11 +6,11 @@ const FuncCard = (props) => {
   const navigate = useNavigate();
   const { Slogan, Title, Desc } = props;
   return (
-    <div className="functionalCard-cont">
+    <div className="functionalCard-cont" data-aos="flip-down">
       <div className="txt">
-        <h1>{Slogan}</h1> <br />
-        <h5>{Title}</h5> <br />
-        <h5>{Desc}</h5>
+        <h1  data-aos="zoom-in-right">{Slogan}</h1> <br />
+        <h5  data-aos="zoom-in-right">{Title}</h5> <br />
+        <h5  data-aos="zoom-in-right">{Desc}</h5>
         <button className="btn" onClick={() => navigate("/contact-us")}>
           REQUEST A QUOTE
         </button>

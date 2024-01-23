@@ -9,8 +9,19 @@ const Service = () => {
       <h1 className="service-head">Our Services</h1>
       <div className="service-wrapper">
         <div className="left-txt">
-          <h1>Services we can help you with.</h1> <br />
-          <h6>
+          <h1
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            Services we can help you with.
+          </h1>{" "}
+          <br />
+          <h6
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             Leveraging digital marketing for any business requires a broad set
             of talent, tools, and strength in numbers. Let our team take care of
             the heavy lifting while we work with you to identify which services
@@ -28,8 +39,10 @@ const Service = () => {
           </p>
           <br />
           <br />
-          <ul className='serviceList'>
-            <h6>Services we can help you with. <br /> (Please Visit by Clicking)</h6>
+          <ul className="serviceList">
+            <h6>
+              Services we can help you with. <br /> (Please Visit by Clicking)
+            </h6>
             <Link to="/seo-services">
               {" "}
               <li>SEO Services</li>

@@ -24,13 +24,13 @@ const Hero = () => {
       <div className={`hero-wrapper${showInput ? " visible" : ""}`}>
         <div className="hero-left">
           <div className="hero-left-txt">
-            <h1>
+            <h1 data-aos="fade-down" data-aos-duration="1000">
               We are best in <br />
               <span>SEO.</span>
             </h1>
-            <p>
-              Ask DEMS to create a comprehensive and aggressive digital marketing
-              plan taking your business to new heights.
+            <p data-aos="fade-right" data-aos-duration="1000">
+              Ask DEMS to create a comprehensive and aggressive digital
+              marketing plan taking your business to new heights.
             </p>
           </div>
           <div className="hero-left-input">

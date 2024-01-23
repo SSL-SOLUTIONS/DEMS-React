@@ -40,7 +40,12 @@ const Services = (props) => {
       <Navbar />
       <div className="services-page-wrapper">
         <div className="servicesPage-left">
-          <div className="servicesPage-left-txt">
+          <div
+            className="servicesPage-left-txt"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             <h1>
               <span>{Slogan}</span> <br />
               {title}
@@ -52,12 +57,32 @@ const Services = (props) => {
           <Form />
         </div>
       </div>{" "}
-      <MarketTailored/>
-      <div className="servicePage-second-cont">
+      <MarketTailored />
+      <div className="servicePage-second-cont" data-aos="flip-down">
         <div className="txt">
-          <h1>{secondContSlogan}</h1> <br />
-          <h5>{SecondContTitle}</h5> <br />
-          <h5>{SecondContDesc}</h5>
+          <h1
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            {secondContSlogan}
+          </h1>{" "}
+          <br />
+          <h5
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            {SecondContTitle}
+          </h5>{" "}
+          <br />
+          <h5
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            {SecondContDesc}
+          </h5>
           <button className="btn" onClick={() => navigate("/contact-us")}>
             REQUEST A QUOTE
           </button>

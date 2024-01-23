@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+  import React,{useEffect} from "react";
 import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
 import Form from "../../Components/Form/Form";
@@ -39,22 +39,34 @@ const Industries = (props) => {
           <div className="left-links">
             <h5>{Service || ServiceDefault} Services</h5>
             <div className="luxury-links">
-              <Link to="/luxury-communities/seo-services">SEO Services</Link>
-              <Link to="/luxury-communities/local-seo">Local SEO</Link>
-              <Link to="/luxury-communities/ppc-services">PPC Services</Link>
-              <Link to="/luxury-communities/social-media">
+              <Link to="/luxury-communities/seo-services" data-aos="fade-right">SEO Services</Link>
+              <Link to="/luxury-communities/local-seo" data-aos="fade-right">Local SEO</Link>
+              <Link to="/luxury-communities/ppc-services" data-aos="fade-right">PPC Services</Link>
+              <Link to="/luxury-communities/social-media" data-aos="fade-right">
                 Social Media Marketing
               </Link>
-              <Link to="/luxury-communities/web-development">
+              <Link to="/luxury-communities/web-development" data-aos="fade-right">
                 WEB Development
               </Link>
-              <Link to="/luxury-communities/web-design">WEB Designing</Link>
+              <Link to="/luxury-communities/web-design" data-aos="fade-right">WEB Designing</Link>
             </div>
           </div>
           <div className="middle-content">
-            <p>{Name} FOR</p>
-            <h1>{Service || ServiceDefault}</h1>
-            <h5>{Desc}</h5>
+            <p
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
+              {Name} FOR
+            </p>
+            <h1
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
+              {Service || ServiceDefault}
+            </h1>
+            <h5 >{Desc}</h5>
           </div>
           <div className="right-form">
             <Form />

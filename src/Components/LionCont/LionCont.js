@@ -8,9 +8,9 @@ const LionCont = (props) => {
     <div className="lionCont-wrapper">
       <div className="lionCont-left">
         <div className="lionCont-left-txt">
-          <h1>{Title}</h1>
-          <p>{Slogan}</p> <br />
-          <p>{Desc}</p>
+          <h1 data-aos="zoom-in-left">{Title}</h1>
+          <p data-aos="zoom-in-left">{Slogan}</p> <br />
+          <p data-aos="zoom-in-left">{Desc}</p>
         </div>
         <button className="btn" onClick={() => navigate("/contact-us")}>
           START NOW

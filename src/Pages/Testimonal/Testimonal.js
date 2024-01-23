@@ -22,9 +22,9 @@ export default function Testimonal() {
     <>
       <Navbar />
       <div className="testimonal-cont">
-        <p>TESTIMONIALS</p>
-        <h1>Our Client Experiences.</h1>
-        <h4>
+        <p  data-aos="zoom-in-down">TESTIMONIALS</p>
+        <h1 data-aos="zoom-in-down">Our Client Experiences.</h1>
+        <h4 data-aos="zoom-in-down">
           We've been helping businesses reach their target audiences for over
           fifteen years. We've learned a lot over these years, and our clients
           have benefited. Hear directly from our clients how we have helped them

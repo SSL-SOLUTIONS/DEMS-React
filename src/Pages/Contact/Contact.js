@@ -19,9 +19,9 @@ const Contact = () => {
       <div className="contact-wrapper">
         <div className="contact-top">
           <div className="contact-left">
-            <p>CONTACT US</p>
-            <h1>Connect with us.</h1>
-            <h4>
+            <p data-aos="zoom-in-down" data-aos-duration="1000">CONTACT US</p>
+            <h1 data-aos="zoom-in-down" data-aos-duration="1000">Connect with us.</h1>
+            <h4 data-aos="zoom-in-right" data-aos-duration="1000">
               Our digital marketing team is always ready to help. Give us a
               call, send us an email, or fill out the form below.
             </h4>{" "}

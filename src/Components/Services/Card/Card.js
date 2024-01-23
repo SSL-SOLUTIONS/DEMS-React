@@ -8,9 +8,9 @@ const Card = (props) => {
     <div className="card-wrapper">
       <div className="card-left">
         <div className="card-left-txt">
-          <h1>{heading}</h1>
-          <h4>{title}</h4> <br />
-          <p>{description}</p>
+          <h1 data-aos="zoom-in-right">{heading}</h1>
+          <h4 data-aos="zoom-in-right">{title}</h4> <br />
+          <p data-aos="zoom-in-right">{description}</p>
         </div>{" "}
         <br />
         <button className="btn" onClick={() => navigate("/contact-us")}>
@@ -18,7 +18,7 @@ const Card = (props) => {
         </button>
       </div>
       <div className="card-right">
-        <img src={img} alt="card-img" />
+        <img src={img} alt="card-img" data-aos="zoom-out-left" />
       </div>
     </div>
   );

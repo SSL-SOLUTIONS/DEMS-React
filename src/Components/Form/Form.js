@@ -64,7 +64,12 @@ const Form = () => {
 
   return (
     <div>
-      <form className="all-form" onSubmit={handleSubmit}>
+      <form
+        className="all-form"
+        onSubmit={handleSubmit}
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
         <h2>REQUEST A QUOTE</h2>
         <h5>IT'S FAST, EASY & FREE</h5>
         <div className="form-cont">

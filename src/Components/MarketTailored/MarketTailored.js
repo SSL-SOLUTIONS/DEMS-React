@@ -4,9 +4,15 @@ const MarketTailored = () => {
   return (
     <>
       <div className="marketTailorCont">
-        <h4>SOCIAL MEDIA MARKETING TAILORED TO YOUR BUSINESS</h4>
+        <h4
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
+          SOCIAL MEDIA MARKETING TAILORED TO YOUR BUSINESS
+        </h4>
         <div className="cards">
-          <div className="tailoredCards">
+          <div className="tailoredCards" data-aos="flip-up">
             <div className="img">
               <img src="/MarketTailored/eye.svg" alt="" />
             </div>
@@ -18,7 +24,7 @@ const MarketTailored = () => {
               </p>
             </div>
           </div>
-          <div className="tailoredCards">
+          <div className="tailoredCards" data-aos="flip-up">
             <div className="img">
               <img src="/MarketTailored/mini_eye.svg" alt="" />
             </div>
@@ -30,7 +36,7 @@ const MarketTailored = () => {
               </p>
             </div>
           </div>
-          <div className="tailoredCards">
+          <div className="tailoredCards" data-aos="flip-up">
             <div className="img">
               <img src="/MarketTailored/Re-assessment.svg" alt="" />
             </div>
@@ -42,7 +48,7 @@ const MarketTailored = () => {
               </p>
             </div>
           </div>
-          <div className="tailoredCards">
+          <div className="tailoredCards" data-aos="flip-up">
             <div className="img">
               <img src="/MarketTailored/book.svg" alt="" />
             </div>
