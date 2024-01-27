@@ -3,7 +3,6 @@
   margin: 10px 0;
   padding-top: 1rem;
   border-top: 1px solid #dddada;
-
 }
 .footer-logo > img {
   width: 230px;
@@ -31,15 +30,17 @@
 .list > ul > h4 {
   margin-bottom: 10px;
 }
-.list > ul >  li,.list > ul > a > li {
+.list > ul > li,
+.list > ul > a > li {
   list-style: none;
   line-height: 1.7rem;
 }
-.list > ul > li:hover,.list-1 ul a:hover{
+.list > ul > li:hover,
+.list-1 ul a:hover {
   font-weight: 700;
 }
 
-.list > ul a{
+.list > ul a {
   color: white;
 }
 
@@ -68,7 +69,7 @@
   font-weight: 900;
   color: #2b315d;
 }
-.bottom-left > h1 > a{
+.bottom-left > h1 > a {
   color: #2b315d;
 }
 
@@ -76,9 +77,9 @@
 .bottom-right-email {
   display: flex;
   align-items: center;
-  
 }
-.bottom-right-email > span > a,.bottom-right-address > span > a {
+.bottom-right-email > span > a,
+.bottom-right-address > span > a {
   color: black;
 }
 .bottom-right-address > span,
@@ -89,6 +90,23 @@
 .mail-icon {
   font-size: 1.35rem;
   margin-top: 5px;
+}
+
+.power-container {
+  background-color: #285c90;
+  color: white;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+.power-inner {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.powered-img {
+  height: 8vh;
+  margin-left: 1rem ;
 }
 
 @media screen and (max-width: 700px) {
@@ -105,6 +123,13 @@
   }
   .footer-wrapper > p {
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .powered-img{
+    height: 6vh;
+    margin-left: 0.5rem;
   }
 }
 

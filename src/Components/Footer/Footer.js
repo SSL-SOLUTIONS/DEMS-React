@@ -83,7 +83,7 @@ const Footer = () => {
             <ul>
               <h4>CAREERS</h4>
               <li>
-                <Link to="/contact-us">Careers</Link>
+                <Link to="/contact-us">Contact</Link>
               </li>
               <li>
                 <Link to="/about-us">Applicant Privacy</Link>
@@ -136,14 +136,19 @@ const Footer = () => {
               <FaPhoneVolume className="icon" />
             </span>
             <h2>Need Help? Say Hello</h2>
-            <h1><a href="tel:+923124700804">+92-312-4700804</a></h1>
+            <h1>
+              <a href="tel:+923124700804">+92-312-4700804</a>
+            </h1>
           </div>
           <div className="bottom-right">
             <div className="bottom-right-address">
               <FaLocationDot className="add-icon" />
 
               <span>
-                <a href="https://www.google.com/maps/place/SSL+SOLUTIONS/@31.5349517,74.3462811,19z/data=!3m1!4b1!4m6!3m5!1s0x391905d3e3ae6b77:0x157a2f53f97b67c6!8m2!3d31.5349506!4d74.3469248!16s%2Fg%2F11lpw1_rd4?entry=ttu" target="_blank">
+                <a
+                  href="https://www.google.com/maps/place/SSL+SOLUTIONS/@31.5349517,74.3462811,19z/data=!3m1!4b1!4m6!3m5!1s0x391905d3e3ae6b77:0x157a2f53f97b67c6!8m2!3d31.5349506!4d74.3469248!16s%2Fg%2F11lpw1_rd4?entry=ttu"
+                  target="_blank"
+                >
                   {" "}
                   313, 3rd Floor, Landmark Plaza Jail Road, Lahore
                 </a>
@@ -162,6 +167,14 @@ const Footer = () => {
           <strong>Copyright © 2024</strong> - Digital Explorers Marketing
           Services. <b>(DEMS)</b>
         </p>
+      </div>
+      <div className="power-container">
+        <div className="power-inner">
+          <h5 className="">Powered By: </h5>
+          <Link to="http://sslsolution.net/" target="_blank">
+            <img className="powered-img" src="/sslsolution.png" />
+          </Link>
+        </div>
       </div>
     </footer>
   );

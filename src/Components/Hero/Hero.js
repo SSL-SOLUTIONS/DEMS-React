@@ -9,7 +9,10 @@ const Hero = () => {
   const [showInput, setShowInput] = useState(false);
 
   const handleScroll = () => {
-    setShowInput(window.scrollY > window.innerHeight / 2);
+    const threshold = window.innerHeight / 3;
+
+    // Check if the user has scrolled down beyond the threshold
+    setShowInput(window.scrollY > threshold);
   };
 
   useEffect(() => {
@@ -34,7 +37,7 @@ const Hero = () => {
             </p>
           </div>
           <div className="hero-left-input">
-            <ScrollLink to="contact-us" smooth={true} duration={500}>
+            <ScrollLink to="contact-us" smooth={true} duration={400}>
               <input type="text" name="" id="" placeholder="Your email" />
               <button onClick={() => navigate("/contact-us")}>
                 FREE WEB ANALYSIS
